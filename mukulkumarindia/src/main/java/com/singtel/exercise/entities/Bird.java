@@ -5,7 +5,4 @@ public class Bird extends Animal{
     return  "I am flying";
     }
 
-    public String sing() {
-        return  "I am Singing";
-    }
 }

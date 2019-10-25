@@ -12,7 +12,8 @@ public class Solution {
         Bird bird = new Bird();
         System.out.println(bird.walk());
         System.out.println(bird.fly());
-        System.out.println(bird.sing());
+        System.out.println(new SingingBird().sing("i am singing"));
+        System.out.println(new Duck().sing("quack,quack"));
     }
 }
 
