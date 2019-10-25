@@ -1,11 +1,11 @@
 package com.singtel.exercise.entities;
 
 public class Bird extends Animal{
-    void fly() {
-    System.out.println("I am flying");
+    public String fly() {
+    return  "I am flying";
     }
 
-    void sing() {
-        System.out.println("I am Singing");
+    public String sing() {
+        return  "I am Singing";
     }
 }
