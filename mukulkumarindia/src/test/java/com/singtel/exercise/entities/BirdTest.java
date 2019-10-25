@@ -9,7 +9,7 @@ public class BirdTest {
 	@Test
 	public void testSing() {
 		Bird bird = new Bird();
-		assertTrue("I am Singing".equals(bird.sing()));
+		assertTrue("I am Singingtest".equals(bird.helperMethod("I am Singing")));
 	}
 
 }

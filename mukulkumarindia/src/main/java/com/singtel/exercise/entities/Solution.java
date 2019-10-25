@@ -10,10 +10,13 @@ public class Solution {
      */
     public static void main(String[] args) {
         Bird bird = new Bird();
-        System.out.println(bird.walk());
-        System.out.println(bird.fly());
-        System.out.println(new SingingBird().sing("i am singing"));
-        System.out.println(new Duck().sing("quack,quack"));
+        Duck duck = new Duck();
+        Bird chicken = new Chicken();
+        bird.walk();
+        bird.fly();
+        bird.sing();
+        duck.walk();
+        chicken.fly();
     }
 }
 
