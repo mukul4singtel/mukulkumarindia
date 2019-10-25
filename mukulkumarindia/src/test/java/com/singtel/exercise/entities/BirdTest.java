@@ -7,7 +7,7 @@ import org.junit.Test;
 public class BirdTest {
 
 	@Test
-	public void test() {
+	public void testSing() {
 		Bird bird = new Bird();
 		assertTrue("I am Singing".equals(bird.sing()));
 	}
