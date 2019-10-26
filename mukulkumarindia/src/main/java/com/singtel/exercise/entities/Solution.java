@@ -1,8 +1,12 @@
 package com.singtel.exercise.entities;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
- * Class to check the Solution with main method.
+ * Class to start the application.
  */
+@SpringBootApplication
 public class Solution {
     /**
      * Main method
@@ -17,6 +21,7 @@ public class Solution {
         bird.sing();
         duck.walk();
         chicken.fly();
+        SpringApplication.run(Solution.class, args);
     }
 }
 

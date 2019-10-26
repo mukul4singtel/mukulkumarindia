@@ -9,3 +9,6 @@ Solution
   class Rooster {
   private Bird bird = new Bird();
   }
+  
+  
+  Rest implementation done through Animal Controller and service.
