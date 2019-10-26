@@ -1,5 +1,8 @@
 package com.singtel.exercise.entities;
 
+/**
+ * Class to hold properties of Chicken.
+ */
 public class Chicken extends Bird {
 	/**
 	 * Method definition of Singing behaviour for Chicken

@@ -1,5 +1,8 @@
 package com.singtel.exercise.entities;
 
+/**
+ * Class to hold properties of Duck.
+ */
 public class Duck extends Bird {
 	
 	/**
